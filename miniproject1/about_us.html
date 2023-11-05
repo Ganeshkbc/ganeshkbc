@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about_us</title>
+    <style>
+    
+        ul{
+            list-style-type: none;
+            margin-top: 30px;
+
+        }
+        li{
+            margin-top: 60px;
+        }
+        .container1{
+            background-color:transparent;
+            width: 200px;
+            height: 300px;
+            display: inline-block;
+        }
+        .container2{
+            display: inline-block;
+            width: 1350px;
+            height: 300px;
+            border: 1px double red;
+            border-radius: 5px;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        .container{
+            background-color: lightseagreen;
+            margin-top: 5px;
+            margin-left: 5px;
+            border: double darkgreen;
+        }
+       marquee{
+            color: red;
+            animation: blink 1s linear infinite
+        }
+        @keyframes blink {
+        20%{
+        opacity: 50;
+        color: red;
+        }
+        40%{
+        opacity: 50;
+        color: blue;
+        }
+        60%{
+        opacity: 50;
+        color: green;
+        }
+        80%{
+        opacity: 50;
+        color: gold;
+        } 
+        100%{
+        opacity: 50;
+        color: pink;
+        } 
+        }
+        .sign{
+            position: absolute;
+            top: 80px;
+            right:18px;
+        }
+
+        pre{
+            animation: blink 1s linear infinite;
+           }
+        @keyframes blink
+        {
+            20%{
+        opacity: 50;
+        color: red;
+        }
+        40%{
+        opacity: 50;
+        color: blue;
+        }
+        60%{
+        opacity: 50;
+        color: green;
+        }
+        80%{
+        opacity: 50;
+        color: gold;
+        } 
+        100%{
+        opacity: 50;
+        color: pink;
+        }  }
+
+        .to{
+            margin-left:50px;
+        }
+        .reg{
+            margin-left: 15px;
+        }
+    </style>
+    </head>
+    <body>
+    <div class="container">
+    <div class="container1">
+        <nav>
+            <ul>
+                <li><a href="https://studycomrade.com/" target="main"><b>🏠 Home</b></a></li> 
+                <hr>
+                <li> <a href="https://studycomrade.com/courses-2/" target="main"><b>📚 Courses</b></a> </li>
+                <hr>
+                <li> <a href="https://studycomrade.com/events/" target="main"><b>📝 Events</b></a> </li>
+                <hr>
+                <li> <a href="https://studycomrade.com/student-login/" target="main"><b>👤 login/sign up</b></a></li>
+                <hr>
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="container2">
+        <iframe src="" frameborder="1" height="300px" width="1350px" name="main"> </iframe>
+        <hr>
+        <marquee behavior="" direction="right">70% Off On Booking</marquee>
+        <div class="sign">
+            <a href="registration_form.html" target="_top"><b><i>
+                <h1><pre>click here</pre></h1>
+                <h1 class="to"><pre>To</pre></h1>
+                <h1 class="reg"><pre>Regiter</pre></h1>  
+            </i></b></a>      
+        </div>
+    </div>
+    </div>
+   </body>
+</html>
