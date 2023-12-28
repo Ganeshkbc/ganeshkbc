@@ -1,0 +1,40 @@
+.abc{
+    background-color: rgb(240, 226, 226);
+    
+}
+.frame{
+    position: absolute;
+    top: 118px;
+    right: 2px;
+    background: url(welcome.png);
+    background-size: 975px 410px;
+}
+.co{
+    height: 5px;
+    width:max;
+    background-color:plum;
+    
+}
+.ans{
+    padding:10px;
+    background-color: rgb(201, 230, 143);
+    height: 100%;
+    margin: 15px;
+    border-radius: 5px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 10px;
+}
+.ans1 {
+    margin-right: 350px;
+    display: inline-block;
+    text-align: left;
+
+}
+.ans2{
+    display: inline-block;
+    text-align: left;
+}

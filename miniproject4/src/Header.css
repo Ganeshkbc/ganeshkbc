@@ -1,0 +1,16 @@
+.ul{
+    display: flex ;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.li{
+    margin: 20px;
+}
+
+.header{
+    background-color:silver;
+}
