@@ -1,0 +1,72 @@
+body{
+    background-image: url(image1.jpg);
+    background-size: cover;   
+}
+.blue{
+    color: blueviolet;
+}
+h1{
+    font-size: 50px;
+    padding-left: 20px;
+    height: 10px;
+    color: whitesmoke;
+}
+.line{
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 3px;
+    width: 8%;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+h3{
+    color: whitesmoke;
+    margin-left: 20px;
+}
+.white{
+    color: whitesmoke;
+}
+.container{
+    position: absolute;
+    width: 1000px;
+    left: 40%;
+    bottom: 40%;
+}
+.in{
+    height: 40px;
+    width: 97%;
+    border-radius: 5px;
+    background: transparent;
+    padding: 5px;
+    margin: 10px;
+    border-color: yellowgreen;
+}
+.ins{
+    height: 40px;
+    width: 98.5%;
+    border-radius: 5px;
+    background:transparent;
+    padding: 5px;
+    margin: 10px;
+    border-color: yellowgreen;
+}
+#bt{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background:rgb(178, 178, 236);
+    padding: 5px;
+    margin: 10px;
+    color: whitesmoke;
+    font-size: larger;
+}
+input::placeholder {
+    text-align:center;
+    font-weight: bold;
+    font-size: larger;
+    opacity: 0.5;
+    color: red;
+  }
+  span{
+    color: whitesmoke;
+  }

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini project3</title>
+    <link rel="stylesheet" href="./project.css">
+
+    <script>
+      function validate()
+      {
+          var fname = document.getElementById('fname').value;
+                     
+          var lname = document.getElementById('lname').value;
+          
+          var country = document.getElementById('country').value;
+          
+          var pno = document.getElementById('pno').value;
+          
+          var orgname = document.getElementById('orgname').value;
+          
+          var orgsize = document.getElementById('orgsize').value;
+          
+          var email = document.getElementById('email').value;
+          
+          var fnamecheck = /^[A-Za-z][A-Za-z]{1,50}$/;
+         var lnamecheck = /^[A-Za-z][A-Za-z]{1,50}$/;
+         //var countrycheck = /^[A-Z][a-z]+((?=[A-Z][a-z])|\b)$/;
+          var countrycheck = /^[A-Za-z][A-Za-z]{1,30}$/;
+          var pnocheck = /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/;
+          var orgnamecheck = /^[a-zA-Z0-9\s]+$/;
+          var orgsizecheck = /\d{1,6}(,\d{6})*(\.\d+)?/;
+          var emailcheck = /^[A-Za-z_]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6}$/;
+          var status = false;
+         if (fnamecheck.test(fname)) {
+            status= true;
+            }
+          else {
+              alert("please enter a valid first name")
+              document.getElementById('fname').focus()
+              return false;
+            }
+
+           if (lnamecheck.test(lname)) {
+            status= true;
+            } 
+          else {
+              alert("please enter a valid last name")
+              document.getElementById('lname').focus()
+              return false;
+             
+            }
+            if (countrycheck.test(country)) {
+              status= true;
+            } 
+          else {
+            
+              alert("please enter a valid country name")
+              document.getElementById('country').focus()
+              return false;
+            }
+
+            if (pnocheck.test(pno)) {
+              status= true;
+            } 
+          else {
+              alert("please enter a valid Phone no")
+              document.getElementById('pno').focus()
+              return false;
+              
+            }
+
+            if (orgnamecheck.test(orgname)) {
+              status= true;
+            } 
+          else {
+              alert("please enter a valid Organization Name")
+              document.getElementById('orgname').focus()
+              return false;
+              
+            }
+
+            if (orgsizecheck.test(orgsize)) {
+              status= true;
+            } 
+          else {
+              alert("please enter a valid Organization Size")
+              document.getElementById('orgsize').focus()
+              return false;
+              
+            }
+
+            if (emailcheck.test(email)) {
+              status= true;
+            } 
+          else {
+              alert("please enter a valid E-Mail ID")
+              document.getElementById('email').focus()
+              return false;
+              
+          }
+          
+          return status;
+          }
+  </script>
+</head>
+<body>
+    <div>
+        <h1>The <span class="blue">Next Gen</span></H1><br>
+        <h1>LMS Platform</h1>
+        <div class="line"></div>
+        <h3>Train, Track & Evaluate Your Team - All In One Place</h3>
+    </div>
+<div class="container">
+  
+    <h2 class="white" align="center">Get Your Free LMS Platform Now</h2>
+    <form action="test.jsp" method="get">
+    <table align="center">
+     <tr align="center">   
+         <td><input type="text" class="in" id="fname" placeholder="First Name*"></td>
+         <td><input type="text" class="in" id="lname" placeholder="Last Name*"></td>
+    </tr>
+    <tr align="center">
+        <td><input type="text" id="country" class="in" placeholder="Country*"></td>
+        <td><input type="number" id="pno" class="in" placeholder="Phone Number"></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><input type="text" class="ins" id="orgname" placeholder="Organization Name*"></td>
+    </tr>
+    <tr align="center">
+        <td><input type="text" class="in" id="orgsize" placeholder="Organization Size*"></td>
+        <td><input type="text" class="in" id="email" placeholder="Work E-Mail ID*"></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><input type="checkbox"><span class="White" id="chk" >There are several ways you can agree with someone.
+             Familiarizing yourself with them is a great way to expand your vocabulary and communicate effectively.
+              Below, we’ll go over 15 different ways to say I agree.</span>
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><input type="submit" id="bt" value="Submit" onclick="return validate();"></td>
+    </tr>
+    
+  </table>
+  </form>
+</div>
+</body>
+</html>
