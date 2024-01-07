@@ -1,0 +1,24 @@
+.main1{
+    height: 230px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(202, 231, 158);
+    display: inline-block;
+}
+.photo{
+    height: 135px;
+    width: 135px;
+    border-radius: 15px;
+}
+.content{
+    margin-top: 0px;
+    text-align: center;
+}
+.pcon{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 0px;
+}

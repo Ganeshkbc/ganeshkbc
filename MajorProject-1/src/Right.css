@@ -1,0 +1,40 @@
+.tab{
+    margin: 30px;
+    text-align: center;
+}
+.h3{
+    text-align: center;
+    text-decoration: overline underline;
+}
+.plant{
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;  
+    display:grid;  
+    justify-content: center;  
+    align-items: center;  
+    box-sizing:border-box;
+    
+}
+.icon{
+    margin-top: 2pxpx ;
+
+
+}
+.con{
+    text-align: center;
+
+}
+.btn{
+background-color: cornflowerblue;
+font-weight: bold;
+text-align: center;
+padding: 2px;
+border-radius: 5px;
+font-size: 15px;
+
+}
+
+    
